@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px 30px;
+    display: flex;
+    min-height: 100vh;
+    background-image: url('images/images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+
+}
+.container{
+    position: relative;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 100%;
+    background-color: rgba(2, 129, 2, 0.158);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    box-shadow: 0 15px 30px 0 rgba(0, 110, 9, 0.973);
+    border:1px solid rgba(5, 165, 0, 0.938);
+    
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 60px;
+}
+.head h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.head img{
+    margin:30px 0 0 0;
+    width: 150px;
+    border: 5px solid #07e91a;
+    padding: 5px;
+    border-radius: 100%;
+    box-shadow: 0 15px 26.5px 0 rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease;
+}
+.head a{
+    font-size: 30px;
+    margin: 30px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+
+p{
+    margin: 20px 0 50px 0;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+h2{
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: linear-gradient(135deg, rgba(59, 182, 65, 0.5) 0%, rgba(3, 201, 36, 0.5) 100%);
+}
+.container .educational{
+    margin-bottom: 60px;
+}
+.container .educational table{
+    margin-top: 20px;
+}
+
+.container .educational table,th,td{
+    border-collapse: collapse;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background: rgba(0, 219, 48, 0.63);
+}
+
+.container .expertice{
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+    
+}
+ul{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.container .it-background{
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px 0;
+
+}
+.container .Applications{
+    width: 100%;
+
+}
+.container .Applications ul{
+    list-style: decimal;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+img:hover, 
+.head a:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    color: #07e91a;
+}
